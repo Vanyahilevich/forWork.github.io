@@ -6,7 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>MECATO</title>
+	<link rel="icon" type="image/x-icon" href="/img/M.svg">
+	<title>MECARO</title>
 </head>
 
 <body>
@@ -20,15 +21,37 @@
 						</a>
 					</div>
 					<ul class="header-info">
-						<li class="info-item"><a href="#">О Нас</a></liinfo>
-						<li class="info-item"><a href="#">Наша Миссия</a></li>
-						<li class="info-item"><a href="#">Сферы Интересов</a></li>
-						<li class="info-item"><a href="#">Направления</a></li>
+						<li class="info-item"><a href="#us">Сферы Интересов</a></li>
+						<li class="info-item"><a href="#tech">Направления</a></li>
 						<li class="info-item"><a href="#">Наши проекты</a></li>
-						<li class="info-item"><a href="#">Вакансии</a></li>
-						<li class="info-item"><a href="#">Связаться с Нами</a></li>
+						<li class="info-item"><a href="https://rabota.by/" target="_blank" >Вакансии</a></li>
+						<li class="info-item"><a href="#footer">Связаться с Нами</a></li>
 					</ul>
-
+					<nav role="navigation"  class="navigation">
+						<div id="menuToggle">
+							<input type="checkbox" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								<a href="#">
+									<li>Home</li>
+								</a>
+								<a href="#">
+									<li>About</li>
+								</a>
+								<a href="#">
+									<li>Info</li>
+								</a>
+								<a href="#">
+									<li>Contact</li>
+								</a>
+								<a href="https://erikterwan.com/" target="_blank">
+									<li>Show me more</li>
+								</a>
+							</ul>
+						</div>
+					</nav>
 				</div>
 			</div>
 		</header>
@@ -48,10 +71,11 @@
 			</div>
 			<div class="us-container container">
 				<div class="us-box">
-					<div class="us-maintitle title">
+					<div id = "us" class="Anchor"></div>
+					<div class="us-maintitle title" >
 						СФЕРЫ ИНТЕРЕСА
 					</div>
-					<div class="us-body">
+					<div class="us-body" >
 						<div class="us__row">
 							<div class="us__column us__column_1">
 								<div class="us__item">
@@ -99,6 +123,7 @@
 				<div class="tech">
 					<div class="tech-container container">
 						<div class="tech-box">
+							<div id = "tech" class="Anchor"></div>
 							<div class="tech-title title">
 								ТЕХНОЛОГИИ
 							</div>
@@ -124,13 +149,13 @@
 										<div class="tech__suptitle">Solid Works</div>
 									</div>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
 		</main>
-		<footer class="footer">
+		<footer class="footer" id="footer">
 			<div class="footer-row">
 				<div class="footer-body">
 					<div class="footer__row">
