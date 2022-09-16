@@ -1,2 +1,2 @@
 # forWork.github.io
-### https://Vanyahilevich.github.io/forWork/index.html
+### https://Vanyahilevich.github.io/forWork.github.io/index.html
