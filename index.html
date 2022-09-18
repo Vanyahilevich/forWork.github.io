@@ -23,31 +23,31 @@
 					<ul class="header-info">
 						<li class="info-item"><a href="#us">Сферы Интересов</a></li>
 						<li class="info-item"><a href="#tech">Направления</a></li>
-						<li class="info-item"><a href="#">Наши проекты</a></li>
-						<li class="info-item"><a href="https://rabota.by/" target="_blank" >Вакансии</a></li>
+						<li class="info-item"><a href="#project">Наши проекты</a></li>
+						<li class="info-item"><a href="https://rabota.by/" target="_blank">Вакансии</a></li>
 						<li class="info-item"><a href="#footer">Связаться с Нами</a></li>
 					</ul>
-					<nav role="navigation"  class="navigation">
+					<nav role="navigation" class="navigation">
 						<div id="menuToggle">
 							<input type="checkbox" />
 							<span></span>
 							<span></span>
 							<span></span>
 							<ul id="menu">
-								<a href="#">
-									<li>Home</li>
+								<a href="#us">
+									<li>Сферы Интересов</li>
 								</a>
-								<a href="#">
-									<li>About</li>
+								<a href="#tech">
+									<li>Направления</li>
 								</a>
-								<a href="#">
-									<li>Info</li>
+								<a href="#project">
+									<li>Наши проекты</li>
 								</a>
-								<a href="#">
-									<li>Contact</li>
+								<a href="https://rabota.by/">
+									<li>Вакансии</li>
 								</a>
-								<a href="https://erikterwan.com/" target="_blank">
-									<li>Show me more</li>
+								<a href="#footer" target="_blank">
+									<li>Связаться с Нами</li>
 								</a>
 							</ul>
 						</div>
@@ -55,11 +55,14 @@
 				</div>
 			</div>
 		</header>
-		<main class="main">
+		<div class="main">
+			<!-- <video autoplay muted loop id="myVideo">
+				<source src="/img/mainVideo.mp4" type="video/mp4">
+			</video> -->
 			<div class="welcome">
 				<div class="welcome-container container">
 					<div class="welcome-body">
-						<div class="welcome-titl">
+						<div class="welcome-title">
 							НАШИ КЛИЕНТЫ – НАША ГЛАВНАЯ ЦЕННОСТЬ. МЫ РАБОТАЕМ ДЛЯ ВАС.
 						</div>
 						<div class="welcome-suptitle">
@@ -69,134 +72,208 @@
 					</div>
 				</div>
 			</div>
-			<div class="us-container container">
-				<div class="us-box">
-					<div id = "us" class="Anchor"></div>
-					<div class="us-maintitle title" >
-						СФЕРЫ ИНТЕРЕСА
-					</div>
-					<div class="us-body" >
-						<div class="us__row">
-							<div class="us__column us__column_1">
-								<div class="us__item">
-									<div class="us-img">
-										<img src="./img/us-camera.svg" alt="camera">
-									</div>
-									<div class="us-title">СИСТЕМЫ ВИДЕООБРАБОТКИ</div>
-									<div class="us-text">Разработка телевизионных и тепловизионных систем видеонаблюдения, систем
-										обработки аэрокосмических снимков</div>
-								</div>
-							</div>
-							<div class="us__column us__column_2">
-								<div class="us__item">
-									<div class="us-img">
-										<img src="./img/II.svg" alt="camera">
-									</div>
-									<div class="us-title">ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ</div>
-									<div class="us-text">Разработка систем анализа данных и принятия решений на основе
-										искусственного интеллекта</div>
-								</div>
-							</div>
-							<div class="us__column us__column_3">
-								<div class="us__item">
-									<div class="us-img">
-										<img src="./img/med.svg" alt="camera">
-									</div>
-									<div class="us-title">МЕДИЦИНСКИЕ ТЕХНОЛОГИИ</div>
-									<div class="us-text">Разработка и внедрение социально значимых медицинских проектов</div>
-								</div>
-							</div>
-							<div class="us__column us__column_4">
-								<div class="us__item">
-									<div class="us-img">
-										<img src="./img/simulator.svg" alt="camera">
-									</div>
-									<div class="us-title">СИМУЛЯТОРЫ И ТРЕНАЖЕРЫ</div>
-									<div class="us-text">Системы моделирования и обучения специалистов с применением AR, VR
-										технологий</div>
-								</div>
-							</div>
-
+			<div class="us">
+				<div class="us-container container">
+					<div class="us-box">
+						<div id="us" class="Anchor"></div>
+						<div class="us-maintitle title">
+							СФЕРЫ ИНТЕРЕСА
 						</div>
-					</div>
-				</div>
-				<div class="tech">
-					<div class="tech-container container">
-						<div class="tech-box">
-							<div id = "tech" class="Anchor"></div>
-							<div class="tech-title title">
-								ТЕХНОЛОГИИ
-							</div>
-							<div class="tech__row">
-								<div class="tech__column tech__column_1">
-									<div class=" tech__item">
-										<div class="tech-back1 tech-back"></div>
-										<div class="tech__title">Разработка ПО</div>
-										<div class="tech__suptitle">C++, C#, Java, Python, Unity3D, Qt</div>
+						<div class="us-body">
+							<div class="us__row">
+								<div class="us__column us__column_1">
+									<div class="us__item">
+										<div class="us-img">
+											<img src="./img/us-camera.svg" alt="camera">
+										</div>
+										<div class="us-title">СИСТЕМЫ ВИДЕООБРАБОТКИ</div>
+										<div class="us-text">Разработка телевизионных и тепловизионных систем видеонаблюдения,
+											систем
+											обработки аэрокосмических снимков</div>
 									</div>
 								</div>
-								<div class="tech__column tech__column_2">
-									<div class=" tech__item">
-										<div class="tech-back2 tech-back"></div>
-										<div class="tech__title">Разработка электроники</div>
-										<div class="tech__suptitle">Altium Designer</div>
+								<div class="us__column us__column_2">
+									<div class="us__item us__item1">
+										<div class="us-img">
+											<img src="./img/II.svg" alt="camera">
+										</div>
+										<div class="us-title">ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ</div>
+										<div class="us-text">Разработка систем анализа данных и принятия решений на основе
+											искусственного интеллекта</div>
 									</div>
 								</div>
-								<div class="tech__column tech__column_3">
-									<div class=" tech__item">
-										<div class="tech-back3 tech-back"></div>
-										<div class="tech__title">Разработка механики</div>
-										<div class="tech__suptitle">Solid Works</div>
+								<div class="us__column us__column_3">
+									<div class="us__item us__item2">
+										<div class="us-img">
+											<img src="./img/med.svg" alt="camera">
+										</div>
+										<div class="us-title">МЕДИЦИНСКИЕ ТЕХНОЛОГИИ</div>
+										<div class="us-text">Разработка и внедрение социально значимых медицинских проектов</div>
+									</div>
+								</div>
+								<div class="us__column us__column_4">
+									<div class="us__item us__item3">
+										<div class="us-img">
+											<img src="./img/simulator.svg" alt="camera">
+										</div>
+										<div class="us-title">СИМУЛЯТОРЫ И ТРЕНАЖЕРЫ</div>
+										<div class="us-text">Системы моделирования и обучения специалистов с применением AR, VR
+											технологий</div>
 									</div>
 								</div>
 
 							</div>
 						</div>
-					</div>
-				</div>
-		</main>
-		<footer class="footer" id="footer">
-			<div class="footer-row">
-				<div class="footer-body">
-					<div class="footer__row">
-						<div class="footer__column footer__column_1">
-							<div class="footer__item">
-								<div class="footer-logo">
-									<img src="./img/logo.svg" alt="logo">
-								</div>
-								<div class="footer-text">© 2022 "MECARO"</div>
-
-							</div>
-						</div>
-						<div class="footer__column footer__column_2">
-							<div class="footer__item">
-								<div class="footer-title">СОТРУДНИЧЕСТВО</div>
-								<div class="footer-text">+375 17 396 15 16 <br> info@kidmatech.by</div>
-
-							</div>
-						</div>
-						<div class="footer__column footer__column_3">
-							<div class="footer__item">
-								<div class="footer-title">СОИСКАТЕЛЯМ</div>
-								<div class="footer-text">+375 17 396 15 16 <br> info@kidmatech.by</div>
-
-							</div>
-						</div>
-						<div class="footer__column footer__column_4">
-							<div class="footer__item">
-								<div class="footer-title">НАШ АДРЕС</div>
-								<div class="footer-text">220070 Республика Беларусь<br> г. Минск, ул. Солтыса 187 </div>
-
-							</div>
-						</div>
-
-
 					</div>
 				</div>
 			</div>
-		</footer>
-	</div>
+			<div class="tech">
+				<div class="tech-container container">
+					<div class="tech-box">
+						<div id="tech" class="Anchor"></div>
+						<div class="tech-title title">
+							ТЕХНОЛОГИИ
+						</div>
+						<div class="tech__row">
+							<div class="tech__column tech__column_1">
+								<div class=" tech__item tech__item1">
+									<div class="tech-back1 tech-back">
+										<!-- <img src="/img/tech11.jpg" alt="tech1"> -->
+									</div>
+									<div class="tech__title">Разработка ПО</div>
+									<div class="tech__suptitle">C++, C#, Java, Python, Unity3D, Qt</div>
+								</div>
+							</div>
+							<div class="tech__column tech__column_2">
+								<div class=" tech__item tech__item2">
+									<div class="tech-back2 tech-back">
+										<!-- <img src="/img/tech21.jpg" alt="tech1"> -->
+									</div>
+									<div class="tech__title">Разработка электроники</div>
+									<div class="tech__suptitle">Altium Designer</div>
+								</div>
+							</div>
+							<div class="tech__column tech__column_3">
+								<div class=" tech__item tech__item3">
+									<div class="tech-back3 tech-back">
+										<!-- <img src="/img/tech31.jpg" alt="tech1"> -->
+									</div>
+									<div class="tech__title">Разработка механики</div>
+									<div class="tech__suptitle">Solid Works</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="columns">
+				<div class='container'>
+					<div id="project" class="Anchor"></div>
+					<div class="columns__title title">НАШИ ПРОЕКТЫ</div>
+					<div class="columns__row">
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>
+									<div class="item__body">
+										<div class="item__title">The description for the image</div>
+										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,
+											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi
+											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>
+									<div class="item__body">
+										<div class="item__title">The description for the image</div>
+										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,
+											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi
+											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>
+									<div class="item__body">
+										<div class="item__title">The description for the image</div>
+										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,
+											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi
+											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="columns__column">
+							<div class="columns__item item">
+								<div class="item__row">
+									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>
+									<div class="item__body">
+										<div class="item__title">The description for the image</div>
+										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,
+											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi
+											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			</main>
+			<footer class="footer" id="footer">
+				<div class="footer-row">
+					<div class="footer-body">
+						<div class="footer__row">
+							<div class="footer__column footer__column_2">
+								<div class="footer__item">
+									<div class="footer-title">СОТРУДНИЧЕСТВО</div>
+									<div class="footer-text">+375 17 396 15 16 <br> info@kidmatech.by</div>
+
+								</div>
+							</div>
+							<div class="footer__column footer__column_3">
+								<div class="footer__item">
+									<div class="footer-title">СОИСКАТЕЛЯМ</div>
+									<div class="footer-text">+375 17 396 15 16 <br> info@kidmatech.by</div>
+
+								</div>
+							</div>
+							<div class="footer__column footer__column_4">
+								<div class="footer__item">
+									<div class="footer-title">НАШ АДРЕС</div>
+									<div class="footer-text">220070 Республика Беларусь<br> г. Минск, ул. Солтыса 187 </div>
+
+								</div>
+							</div>
+							<div class="footer__column footer__column_1">
+								<div class="footer__item">
+									<div class="footer-logo">
+										<a href="#" class="footer__logo">
+											<img src="./img/logo.svg" alt="logo">
+										</a>
+									</div>
+									<div class="footer-text">© 2022 "MECARO"</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
 </body>
+
+<script type="module" src="./index.js"></script>
 
 </html>
