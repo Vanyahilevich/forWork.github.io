@@ -1,0 +1,1 @@
+// document.querySelector('#myVideo').playbackRate = 0.8;
