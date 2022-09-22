@@ -2,595 +2,614 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" type="image/x-icon" href="/img/M1%20grey.svg">
-	<title>MECARO</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/M1%20grey.svg">
+    <title>MECARO</title>
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="line__header"></div>
-			<div class="container header-container">
-				<div class="header-body">
-					<div class="header-logo">
-						<a href="#">
-<!--							<img src="./img/M%20grey.svg" alt="MainLogo">-->
-							<img src="./img/newLogo.svg" alt="MainLogo">
-						</a>
-					</div>
-					<nav>
-					<ul class="header-info">
-						<li class="info-item"><a href="#values">НАШИ ЦEННОСТИ</a></li>
-						<li class="info-item"><a href="#us">О НАС</a></li>
-						<li class="info-item"><a href="#vacancy" >КАРЬЕРА</a></li>
-						<li class="info-item"><a href="#footer">СВЯЗАТЬСЯ С НАМИ</a></li>
-					</ul>
-					</nav>
-					<nav class="navigation">
-						<div class="menuToggle">
-							<span></span>
-							<span></span>
-							<span></span>
-							<ul class="menu" >
-								<li class="info-item"><a href="#values">НАШИ ЦEННОСТИ</a></li>
-								<li class="info-item"><a href="#us">О НАС</a></li>
-								<li class="info-item"><a href="#vacancy" >КАРЬЕРА</a></li>
-								<li class="info-item"><a href="#footer">СВЯЗАТЬСЯ С НАМИ</a></li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</header>
-		<div class="main">
-			<video autoplay muted loop id="myVideo">
-				<source src="./img/mainVideo.mp4" type="video/mp4">
-			</video>
-			<div class="welcome">
-				<div class="welcome-container container">
-					<div class="welcome-body">
-						<div class="welcome-title ">
-							<span class="mecaro">MECARO</span> - <span  class="">MEC</span>hatronics <span  class="">A</span>nd <span  class="">RO</span>botics
-						</div>
-						<div class="welcome-suptitle text">
-							Робототехника открывает технологический мир творчества, погружая разработчика в изобретательскую инженерно-конструкторскую деятельность. В мехатронике сплетаются воедино механика, электроника и программирование.<br>В технологическом веке вся работа автоматизируется, позволяя менять жизнь человека к лучшему, продвигать вперед науку, расширяя человеческие возможности.
-						</div>
-					</div>
-				</div>
-			</div>
-<!--			------------------------------------------------------>
-			<div class="values">
-				<div class='values__container container'>
-					<div id="values" class="Anchor"></div>
-					<div class=" title">НАШИ ЦЕННОСТИ</div>
-					<div class="values__row">
-						<div class="values__column">
-							<div class="values__item item">
-								<div class="values__row">
-								<div class="values__body">
-										<div class="values__title suptitle">Ответственность и добросовестность</div>
-										<div class="values__text text">Основная ценность нашей компании.</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="values__column">
-							<div class="values__item item">
-								<div class="values__row">
-									<div class="values__body">
-										<div class="values__title suptitle">Ориентируемся на результат</div>
-										<div class="values__text text">Мы стремимся действовать безотлагательно и выполнять свои обязательства. Мы совершенствуемся каждый день, чтобы создавать качественный продукт, соответствующий требованиям наших клиентов.</div>
-									</div>
-								</div>
-							</div>
-						</div>
+<div class="wrapper">
+    <header class="header">
+        <div class="line__header"></div>
+        <div class="container header-container">
+            <div class="header-body">
+                <div class="header-logo">
+                    <a href="#">
+                        <!--							<img src="./img/M%20grey.svg" alt="MainLogo">-->
+                        <img class="logo" src="./img/Mecaro.svg" alt="MainLogo">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-info">
+                        <li class="info-item "><a href="#values" data-i18="values">НАШИ ЦEННОСТИ</a></li>
+                        <li class="info-item"><a href="#us" data-i18="about-us">О НАС</a></li>
+                        <li class="info-item"><a href="#vacancy" data-i18="career">КАРЬЕРА</a></li>
+                        <li class="info-item"><a href="#footer" data-i18="contact">СВЯЗАТЬСЯ С НАМИ</a></li>
+                    </ul>
+                    <div class="header__lang">
+                        <button id="EN" class="header__btn btn  lang active__lang">EN</button>
+                        <div>/</div>
+                        <button id="RU" class="header__btn btn lang ">RU</button>
+                    </div>
+                </nav>
+                <nav class="navigation">
+                    <div class="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul class="menu active__menu">
+                            <li class="info-item"><a href="#values" data-i18="values">НАШИ ЦEННОСТИ</a></li>
+                            <li class="info-item"><a href="#us" data-i18="about-us">О НАС</a></li>
+                            <li class="info-item"><a href="#vacancy" data-i18="career">КАРЬЕРА</a></li>
+                            <li class="info-item"><a href="#footer" data-i18="contact">СВЯЗАТЬСЯ С НАМИ</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <video autoplay muted loop id="myVideo">
+            <source src="./img/mainVideo.mp4" type="video/mp4">
+        </video>
+        <div class="welcome">
+            <div class="welcome-container container">
+                <div class="welcome-body">
+                    <div class="welcome-title ">
+                        <span class="mecaro">MECARO</span> - <span class="">MEC</span>hatronics <span class="">A</span>nd
+                        <span class="">RO</span>botics
+                    </div>
+                    <div class="welcome-suptitle text" data-i18="main-suptitle">
+                        Робототехника открывает технологический мир творчества, погружая разработчика в изобретательскую
+                        инженерно-конструкторскую деятельность. В мехатронике сплетаются воедино механика, электроника и
+                        программирование. В технологическом веке вся работа автоматизируется, позволяя менять жизнь
+                        человека к лучшему, продвигать вперед науку, расширяя человеческие возможности.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--			------------------------------------------------------>
+        <div class="values">
+            <div class='values__container container'>
+                <div id="values" class="Anchor"></div>
+                <div class=" title" data-i18="values">НАШИ ЦЕННОСТИ</div>
+                <div class="values__row">
+                    <div class="values__column">
+                        <div class="values__item item">
+                            <div class="values__row">
+                                <div class="values__body">
+                                    <div class="values__title suptitle" data-i18="values-title1">Ответственность и
+                                        добросовестность
+                                    </div>
+                                    <div class="values__text text" data-i18="values-suptitle1">Основная ценность нашей
+                                        компании.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="values__column">
+                        <div class="values__item item">
+                            <div class="values__row">
+                                <div class="values__body">
+                                    <div class="values__title suptitle" data-i18="values-title2">Ориентируемся на
+                                        результат
+                                    </div>
+                                    <div class="values__text text" data-i18="values-suptitle2">Мы стремимся действовать
+                                        безотлагательно и выполнять свои обязательства. Мы совершенствуемся каждый день,
+                                        чтобы создавать качественный продукт, соответствующий требованиям наших
+                                        клиентов.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-						<div class="values__column">
-							<div class="values__item item">
-								<div class="values__row">
-									<div class="values__body">
-										<div class="values__title suptitle">Инновационность</div>
-										<div class="values__text text">Мы нацелены на создание и внедрение новых технологий и подходов. Мы любопытны, настойчивы и полны решимости преодолевать барьеры.</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="values__column">
-							<div class="values__item item">
-								<div class="values__row">
-									<div class="values__body">
-										<div class="values__title suptitle">Командная работа</div>
-										<div class="values__text text">Отношения в нашей команде построены на принципе уважения. Команда работает так, чтобы раскрывать потенциал  каждого сотрудника, а совместные усилия рождали наилучший результат.</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="values__column">
-							<div class="values__item item">
-								<div class="values__row">
-									<div class="values__body">
-										<div class="values__title suptitle">Профессиональные сотрудники</div>
-										<div class="values__text text">В нашей команде работают квалифицированные, опытные и мотивированные люди.</div>
-									</div>
-								</div>
-							</div>
-						</div>
+                    <div class="values__column">
+                        <div class="values__item item">
+                            <div class="values__row">
+                                <div class="values__body">
+                                    <div class="values__title suptitle" data-i18="values-title3">Инновационность</div>
+                                    <div class="values__text text" data-i18="values-suptitle3">Мы нацелены на создание и
+                                        внедрение новых технологий и подходов. Мы любопытны, настойчивы и полны
+                                        решимости преодолевать барьеры.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="values__column">
+                        <div class="values__item item">
+                            <div class="values__row">
+                                <div class="values__body">
+                                    <div class="values__title suptitle" data-i18="values-title4">Командная работа</div>
+                                    <div class="values__text text" data-i18="values-suptitle4">Отношения в нашей команде
+                                        построены на принципе уважения. Команда работает так, чтобы раскрывать потенциал
+                                        каждого сотрудника и совместными усилиями достигать наилучшего результата.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="values__column">
+                        <div class="values__item item">
+                            <div class="values__row">
+                                <div class="values__body">
+                                    <div class="values__title suptitle" data-i18="values-title5">Профессиональные
+                                        сотрудники
+                                    </div>
+                                    <div class="values__text text" data-i18="values-suptitle5">В нашей команде работают
+                                        квалифицированные, опытные и мотивированные люди.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-					</div>
-				</div>
-			</div>
-<!--						-------------------------------------------------->
-			<div class="us">
-				<div class="us-container container">
-					<div class="us-box">
-						<div id="us" class="Anchor"></div>
-						<div class="us-maintitle title">
-							О НАС
-						</div>
-						<div class="us-textsup text ">
-							Область нашей профессиональной деятельности включает проектирование, исследование, производство и эксплуатацию мехатронных и робототехнических систем для применения в автоматизированном производстве, сельском хозяйстве, на транспорте, в медицине и других областях.
+                </div>
+            </div>
+        </div>
+        <!--						-------------------------------------------------->
+        <div class="us">
+            <div class="us-container container">
+                <div class="us-box">
+                    <div id="us" class="Anchor"></div>
+                    <div class="us-maintitle title" data-i18="about-us">О НАС</div>
+                    <div class="us-textsup text " data-i18="about-us-main-suptitle">
+                        Область нашей профессиональной деятельности включает проектирование, исследование, производство
+                        и эксплуатацию мехатронных и робототехнических систем для применения в автоматизированном
+                        производстве, сельском хозяйстве, на транспорте, в медицине и других областях.
 
-						</div>
-						<div class="us-body">
-							<div class="us__row">
-								<div class="us__column us__column_1">
-									<div class="us__item">
-										<div class="us-img">
-											<img src="./img/us-camera.svg" alt="camera">
-										</div>
-										<div class="us-title suptitle">СИСТЕМЫ ВИДЕООБРАБОТКИ</div>
-										<div class="us-text text">Обработка данных телевизионных, тепловизионных систем видеонаблюдения.
-											</div>
-									</div>
-								</div>
-								<div class="us__column us__column_2">
-									<div class="us__item us__item1">
-										<div class="us-img">
-											<img src="./img/II.svg" alt="camera">
-										</div>
-										<div class="us-title suptitle">ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ</div>
-										<div class="us-text text">Использование искусственного интеллекта, машинного обучения в системах компьютерного зрения, анализа данных, автоматического управления и принятия решений</div>
-									</div>
-								</div>
-								<div class="us__column us__column_3">
-									<div class="us__item us__item2">
-										<div class="us-img">
-											<img src="./img/automatic.svg" alt="camera">
-										</div>
-										<div class="us-title suptitle" >АВТОМАТИЗИРО - ВАННЫЕ СИСТЕМЫ УПРАВЛЕНИЯ</div>
-										<div class="us-text text">Повышение эффективности, быстрый сбор и обработка информации, повышенная точность, минимизация вмешательства человека в принятие решений.</div>
-									</div>
-								</div>
-								<div class="us__column us__column_4">
-									<div class="us__item us__item3">
-										<div class="us-img">
-											<img src="./img/robotics.svg" alt="camera">
-										</div>
-										<div class="us-title suptitle">РОБОТОТЕХНИКА</div>
-										<div class="us-text text">Разработка программируемых механических устройств, способных выполнять задачи и взаимодействовать с внешней средой без помощи человека.</div>
-									</div>
-								</div>
+                    </div>
+                    <div class="us-body">
+                        <div class="us__row">
+                            <div class="us__column us__column_1">
+                                <div class="us__item">
+                                    <div class="us-img">
+                                        <img src="./img/us-camera.svg" alt="camera">
+                                    </div>
+                                    <div class="us-title suptitle" data-i18="about-us-title1">СИСТЕМЫ ВИДЕООБРАБОТКИ
+                                    </div>
+                                    <div class="us-text text" data-i18="about-us-suptitle1">Обработка данных
+                                        телевизионных, тепловизионных систем видеонаблюдения.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="us__column us__column_2">
+                                <div class="us__item us__item1">
+                                    <div class="us-img">
+                                        <img src="./img/II.svg" alt="camera">
+                                    </div>
+                                    <div class="us-title suptitle" data-i18="about-us-title2">ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ
+                                    </div>
+                                    <div class="us-text text" data-i18="about-us-suptitle2">Использование искусственного
+                                        интеллекта, машинного обучения в системах компьютерного зрения, анализа данных,
+                                        автоматического управления и принятия решений.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="us__column us__column_3">
+                                <div class="us__item us__item2">
+                                    <div class="us-img">
+                                        <img src="./img/automatic.svg" alt="camera">
+                                    </div>
+                                    <div class="us-title suptitle" data-i18="about-us-title3">АВТОМАТИЗИРО - ВАННЫЕ
+                                        СИСТЕМЫ УПРАВЛЕНИЯ
+                                    </div>
+                                    <div class="us-text text" data-i18="about-us-suptitle3">Повышение эффективности,
+                                        быстрый сбор и обработка информации, повышенная точность, минимизация
+                                        вмешательства человека в принятие решений.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="us__column us__column_4">
+                                <div class="us__item us__item3">
+                                    <div class="us-img">
+                                        <img src="./img/robotics.svg" alt="camera">
+                                    </div>
+                                    <div class="us-title suptitle" data-i18="about-us-title4">РОБОТОТЕХНИКА</div>
+                                    <div class="us-text text" data-i18="about-us-suptitle4">Разработка программируемых
+                                        механических устройств, способных выполнять задачи и взаимодействовать с внешней
+                                        средой без помощи человека.
+                                    </div>
+                                </div>
+                            </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="tech">
-				<div class="tech-container container">
-					<div class="tech-box">
-						<div class="tech-text1 text">
-								В наших проектах мы стремимся применять новаторские подходы к разработке, использовать современную элементную базу и новые технологий для создания прогрессивной и конкурентоспособной продукции.
-						</div>
-						<div class="tech__row">
-							<div class="tech__column tech__column_3">
-								<div class=" tech__item tech__item3">
-									<div class="tech-back3 tech-back"></div>
-									<div class="tech__text">
-										<div class="tech__title suptitle">Разработка механики</div>
-										<div class="tech__suptitle text">Разработка конструктива изделий с проработкой компоновки и дизайна. Подбор материалов и унифицированных узлов происходит с учётом максимально широкого списка необходимых параметров и с учётом последующих логистических задач. Механические и кинематические расчёты производятся с использованием расширенного математического аппарата и передового специализированного ПО. Слаженная команда разработчиков распределяет задачи согласно сильным сторонам каждого участника.</div>
-									</div>
-								</div>
-							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech">
+            <div class="tech-container container">
+                <div class="tech-box">
+                    <div class="tech-text1 text" data-i18="tech-main-suptitle">
+                        В наших проектах мы стремимся применять новаторские подходы к разработке, использовать
+                        современную элементную базу и новые технологии для создания прогрессивной и конкурентоспособной
+                        продукции.
+                    </div>
+                    <div class="tech__row">
+                        <div class="tech__column tech__column_3">
+                            <div class=" tech__item tech__item3">
+                                <div class="tech-back3 tech-back"></div>
+                                <div class="tech__text">
+                                    <div class="tech__title suptitle" data-i18="tech-title1">РАЗРАБОТКА МЕХАНИКИ</div>
+                                    <div class="tech__suptitle text" data-i18="tech-suptitle1">Разработка конструктива
+                                        изделий с проработкой компоновки и дизайна. Подбор материалов и унифицированных
+                                        узлов происходит с учётом максимально широкого списка необходимых параметров и с
+                                        учётом последующих логистических задач. Механические и кинематические расчёты
+                                        производятся с использованием расширенного математического аппарата и передового
+                                        специализированного ПО. Слаженная команда разработчиков распределяет задачи
+                                        согласно сильным сторонам каждого участника.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-							<div class="hr"></div>
-							<div class="tech__column tech__column_2">
-								<div class=" tech__item tech__item2">
-									<div class="tech-back2 tech-back"></div>
-									<div class="tech__text">
-									<div class="tech__title suptitle">Разработка электроники</div>
-									<div class="tech__suptitle text">Проектирование и расчет электронных схем на основе обширной научно-технической базы с применением современных электронных компонентов и программных средств разработки. Cоздание печатных плат и программного обеспечения для их эффективной работы, конечная наладка готового устройства.</div>
-									</div>
-								</div>
-							</div>
-							<div class="hr"></div>
-							<div class="tech__column tech__column_1">
-								<div class=" tech__item tech__item1">
-									<div class="tech-back1 tech-back"></div>
-									<div class="tech__text">
-										<div class="tech__title suptitle">Разработка ПО</div>
-										<div class="tech__suptitle text">Разработка комплексного программного обеспечения, позволяющая наделить продукт автономностью и предоставляющая качественный уровень пользовательского взаимодействия с ним. Для осуществления этого у нас собрана междисциплинарная команда разработчиков, состоящая из специалистов машинного обучения, разработчиков программ для конечных пользователей и разработчиков программного обеспечения для встраиваемых систем.</div>
-									</div>
+                        <div class="hr"></div>
+                        <div class="tech__column tech__column_2">
+                            <div class=" tech__item tech__item2">
+                                <div class="tech-back2 tech-back"></div>
+                                <div class="tech__text">
+                                    <div class="tech__title suptitle" data-i18="tech-title2">РАЗРАБОТКА ЭЛЕКТРОНИКИ
+                                    </div>
+                                    <div class="tech__suptitle text" data-i18="tech-suptitle2">Проектирование и расчет
+                                        электронных схем на основе обширной научно-технической базы с применением
+                                        современных электронных компонентов и программных средств разработки. Cоздание
+                                        печатных плат и программного обеспечения для их эффективной работы, конечная
+                                        наладка готового устройства.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="tech__column tech__column_1">
+                            <div class=" tech__item tech__item1">
+                                <div class="tech-back1 tech-back"></div>
+                                <div class="tech__text">
+                                    <div class="tech__title suptitle" data-i18="tech-title3">РАЗРАБОТКА ПО</div>
+                                    <div class="tech__suptitle text" data-i18="tech-suptitle3">Разработка комплексного
+                                        программного обеспечения, позволяющая наделить продукт автономностью и
+                                        предоставляющая качественный уровень пользовательского взаимодействия с ним. Для
+                                        осуществления этого у нас собрана междисциплинарная команда разработчиков,
+                                        состоящая из специалистов машинного обучения, разработчиков программ для
+                                        конечных пользователей и разработчиков программного обеспечения для встраиваемых
+                                        систем.
+                                    </div>
+                                </div>
 
-								</div>
-							</div>
+                            </div>
+                        </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-<!--			<div class="columns">-->
-<!--				<div class='container'>-->
-<!--					<div id="project" class="Anchor"></div>-->
-<!--					<div class="columns__title title">НАШИ ПРОЕКТЫ</div>-->
-<!--					<div class="suptitle">-->
-<!--						<div>Главная особенность наших проектов – применение самых продвинутых подходов к разработке, использование современной элементной базы и технологий для создания по-настоящему прогрессивной и конкурентоспособной продукции мирового уровня.-->
-<!--						</div>-->
-<!--					</div>-->
-<!--					<div class="columns__row">-->
-<!--						<div class="columns__column">-->
-<!--							<div class="columns__item item">-->
-<!--								<div class="item__row">-->
-<!--									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>-->
-<!--									<div class="item__body">-->
-<!--										<div class="item__title">The description for the image</div>-->
-<!--										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,-->
-<!--											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi-->
-<!--											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="columns__column">-->
-<!--							<div class="columns__item item">-->
-<!--								<div class="item__row">-->
-<!--									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>-->
-<!--									<div class="item__body">-->
-<!--										<div class="item__title">The description for the image</div>-->
-<!--										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,-->
-<!--											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi-->
-<!--											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="columns__column">-->
-<!--							<div class="columns__item item">-->
-<!--								<div class="item__row">-->
-<!--									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>-->
-<!--									<div class="item__body">-->
-<!--										<div class="item__title">The description for the image</div>-->
-<!--										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,-->
-<!--											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi-->
-<!--											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="columns__column">-->
-<!--							<div class="columns__item item">-->
-<!--								<div class="item__row">-->
-<!--									<div class="item__image"><img src="img/tech1.jpg" alt=""></div>-->
-<!--									<div class="item__body">-->
-<!--										<div class="item__title">The description for the image</div>-->
-<!--										<div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque,-->
-<!--											ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi-->
-<!--											dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>-->
-<!--									</div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			<div class="vacancy">
-				<div class="vacancy-container container">
-					<div id="vacancy" class="Anchor"></div>
-					<div class="vacancy-box">
-						<div class="vacancy-title title">
-							КАРЬЕРА
-						</div>
-						<div class="vacancy__suptitle1 text">
-								Стань частью команды R&D Mecaro. <br> Мы ищем единомышленников влюбленных в свою профессию, постоянно развивающихся, готовых создавать высококачественный продукт, стремящихся к новым вершинам.Присоединяйся к нам!
-						</div>
-						<div class="vacancy__row">
-							<div class="vacancy__column vacancy__column_2">
-								<div class=" vacancy__item vacancy__item2">
-									<div class="vacancy-back1 vacancy-back"></div>
-									<div class="vacancy__text">
-										<div class="vacancy__title suptitle">
-											<img class="arrow" src="./img/arrow.svg">
-											Инженер-конструктор (оптика, приборостроение)
-										</div>
-										<div class="vacancy__show">
-											<div class="vacancy__suptitle text">Обязанности:</div>
-											<ul class="vacancy__list">
-												<li>-  Разработка   эскизных,   технических   и   рабочих   проектов   сложных   и
-													средней   сложности   электронно-оптических   изделий   (системы
-													искусственного зрения, приборы наблюдения).</li>
-												<li>- Компоновка   изделия   и   теоретические   увязки   отдельных   элементов
-													конструкций   с   учетом   технологических   особенностей   производства,
-													чертежей и паспортов покупных компонентов.</li>
-												<li>- Создание 3D-моделей деталей, сборочных единиц.</li>
-												<li>- Оформление комплекта КД и ЭД в соответствии с ЕСКД.</li>
-												<li>- Конструкторское сопровождение производства и испытаний.</li>
-												<li>- Проведение поисковых исследований и формирование отчета.</li>
-												<li>- Анализ типовых конструкций и конструктивных решений.</li>
-												<li>- Анализ и разработка технического задания.</li>
-												<li>- Анализ технико-экономических показателей на проектируемые изделия.</li>
-												<li>- Анализ лучших практик в области создания перспективных изделий.</li>
-												<li>- Выполнение геометрических, прочностных расчетов и др.</li>
-												<li>- Выполнение расчетов надежности компонентов.</li>
-											</ul>
-											<div class="vacancy__suptitle text">Требования:</div>
-											<ul class="vacancy__list">
-												<li>- Образование высшее (инженер-конструктор)</li>
-												<li>- Среда разработки – SolidWorks</li>
-												<li>- Опыт разработки фрезерованных корпусов (ал. сплавы) для приборов</li>
-												<li>- Знание конъюнктуры рынка камер(день/ночь), объективов фиксир. и моторизованных</li>
-												<li>- Чтение и составление оптических схем.</li>
-												<li>- Умение работать в команде</li>
-												<li>- Опыт работы: 3-5 лет </li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="hr"></div>
-							<div class="vacancy__column vacancy__column_2">
-								<div class=" vacancy__item vacancy__item2">
-									<div class="vacancy-back1 vacancy-back"></div>
-									<div class="vacancy__text">
-										<div class="vacancy__title suptitle">
-											<img class="arrow" src="./img/arrow.svg">
-											Инженер-конструктор (машиностроение)
-										</div>
-										<div class="vacancy__show">
-											<div class="vacancy__suptitle text">Обязанности:</div>
-											<ul class="vacancy__list">
-												<li>Разработка узлов или систем гусеничных машин</li>
-												<li>Компоновка узлов, систем и теоретические увязки отдельных элементов конструкций с учетом окружающей обстановки, технологических особенностей производства, чертежей и паспортов покупных компонентов.</li>
-												<li>Проведение расчетов для обоснования выбора конструкторских решений и составных частей (кинематические, прочностные, расчет сварных швов, расчет на устойчивость и т.п.).</li>
-												<li>Создание 3D-моделей деталей, сборочных единиц.</li>
-												<li>Оформление комплекта КД и ЭД в соответствии с ЕСКД.</li>
-												<li>Авторский надзор в производстве.</li>
-											</ul>
-											<div class="vacancy__suptitle text">Требования:</div>
-											<ul class="vacancy__list">
-												<li>Образование высшее (инженер-конструктор, БНТУ)</li>
-												<li>Среда разработки – SolidWorks</li>
-												<li>Знание методов и принципов конструирования</li>
-												<li>Опыт разработки и расчета пространственных силовых сварных конструкций</li>
-												<li>Опыт разработки гидравлических систем (приветствуется)</li>
-												<li>Опыт работы в области разработки или модернизации гусеничных транспортных средств (приветствуется)</li>
-												<li>Опыт работы в автомобилестроении: 3-5 лет </li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="hr"></div>
-							<div class="vacancy__column vacancy__column_1">
-								<div class=" vacancy__item vacancy__item1">
-									<div class="vacancy-back1 vacancy-back"></div>
-									<div class="vacancy__text">
-										<div class="vacancy__title suptitle">
-											<img class="arrow" src="./img/arrow.svg">
-											Инженер-схемотехник
-										</div>
-										<div class="vacancy__show">
-											<div class="vacancy__suptitle text">Обязанности:</div>
-											<ul class="vacancy__list">
-												<li>- Разработка схемотехнических решений</li>
-												<li>- Моделирование (макетирование) разработанных схем</li>
-												<li>- Разработка топологии печатных плат</li>
-												<li>- Отладка и испытания разрабатываемого оборудования</li>
-												<li>- Разработка конструкторской и технологической документации</li>
-												<li>- Сопровождение на производстве разработанных изделий</li>
-											</ul>
-											<div class="vacancy__suptitle text">Требования:</div>
-											<ul class="vacancy__list">
-												<li>- Опыт работы в области проектирования РЭА</li>
-												<li>- Знание современной компонентной базы</li>
-												<li>- Знание и опыт разработки устройств на основе микроконтроллеров</li>
-												<li>- Знание и опыт разработки аналоговой схемотехники</li>
-												<li>- Владение средой проектирования Altium Designer</li>
-												<li>- Опыт создания конструкторской документации</li>
-												<li>- Технический английский (чтение и понимание)</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="hr"></div>
-							<div class="vacancy__column vacancy__column_3">
-								<div class=" vacancy__item vacancy__item3">
-									<div class="vacancy-back1 vacancy-back"></div>
-									<div class="vacancy__text">
-										<div class="vacancy__title suptitle">
-											<img class="arrow" src="./img/arrow.svg">
-											Инженер-программист микроконтроллеров
-										</div>
-										<div class="vacancy__show">
-											<div class="vacancy__suptitle text">Обязанности:</div>
-											<ul class="vacancy__list">
-												<li>- Разработка программного обеспечения для микроконтроллеров</li>
-												<li>- Отладка, оптимизация кода, пусконаладка</li>
-												<li>- Взаимодействие со схемотехники по вопросам схемотехнических решений</li>
-												<li>- Поддержка и доработка существующих разработок радиоэлектронной аппаратуры</li>
-											</ul>
-											<div class="vacancy__suptitle text">Требования:</div>
-											<ul class="vacancy__list">
-												<li>- Знание и практический опыт применения С и С++</li>
-												<li>- Опыт работы с микроконтроллерами на ядрах Cortex M</li>
-												<li>- Желателен опыт работы с микроконтроллерами STM, Texas Instrument, Microchip.</li>
-												<li>- Приветствуется опыт разработки ПО c использованием RTOS</li>
-												<li>- Опыт программирования прикладного ПО в QT будет преимуществом</li>
-												<li>- Базовые знания в области электроники и схемотехники, понимание принципиальных электрических схем</li>
-												<li>- Умение быстро переключаться между проектами </li>
-												<li>- Уверенное пользование Git</li>
 
-											</ul>
-										</div>
-									</div>
+        <div class="vacancy">
+            <div class="vacancy-container container">
+                <div id="vacancy" class="Anchor"></div>
+                <div class="vacancy-box">
+                    <div class="vacancy-title title" data-i18="career">КАРЬЕРА</div>
+                    <div class="vacancy__suptitle1 text" data-i18="career-main-suptitle">
+                        Стань частью команды R&D Mecaro. Мы ищем единомышленников влюбленных в свою профессию,
+                        постоянно развивающихся, готовых создавать высококачественный продукт, стремящихся к новым
+                        вершинам. Присоединяйся к нам!
+                    </div>
+                    <div class="vacancy__row">
+                        <div class="vacancy__column vacancy__column_2">
+                            <div class=" vacancy__item vacancy__item2">
+                                <div class="vacancy-back1 vacancy-back"></div>
+                                <div class="vacancy__text">
+                                    <div class="vacancy__title suptitle">
+                                        <img class="arrow" src="./img/arrow.svg">
+                                        <span data-i18="vacancy1-title">Инженер-конструктор (оптика, приборостроение)</span>
+                                    </div>
+                                    <div class="vacancy__show">
+                                        <div class="vacancy__suptitle text" data-i18="Responsibilities">Обязанности:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v1r1">- Разработка эскизных, технических и рабочих проектов сложных и
+                                                средней сложности электронно-оптических изделий (системы
+                                                искусственного зрения, приборы наблюдения).
+                                            </li>
+                                            <li data-i18="v1r2">- Компоновка изделия и теоретические увязки отдельных элементов
+                                                конструкций с учетом технологических особенностей производства,
+                                                чертежей и паспортов покупных компонентов.
+                                            </li>
+                                            <li data-i18="v1r3">- Создание 3D-моделей деталей, сборочных единиц.</li>
+                                            <li data-i18="v1r4">- Оформление комплекта КД и ЭД в соответствии с ЕСКД.</li>
+                                            <li data-i18="v1r5">- Конструкторское сопровождение производства и испытаний.</li>
+                                            <li data-i18="v1r6">- Проведение поисковых исследований и формирование отчета.</li>
+                                            <li data-i18="v1r7">- Анализ типовых конструкций и конструктивных решений.</li>
+                                            <li data-i18="v1r8">- Анализ и разработка технического задания.</li>
+                                            <li data-i18="v1r9">- Анализ технико-экономических показателей на проектируемые изделия.
+                                            </li>
+                                            <li data-i18="v1r10">- Анализ лучших практик в области создания перспективных изделий.</li>
+                                            <li data-i18="v1r11">- Выполнение геометрических, прочностных расчетов и др.</li>
+                                            <li data-i18="v1r12">- Выполнение расчетов надежности компонентов.</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="must-haves">Требования:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v1m1">- Образование высшее (инженер-конструктор)</li>
+                                            <li data-i18="v1m2">- Среда разработки – SolidWorks</li>
+                                            <li data-i18="v1m3">- Опыт разработки фрезерованных корпусов (ал. сплавы) для приборов</li>
+                                            <li data-i18="v1m4">- Знание конъюнктуры рынка камер(день/ночь), объективов фиксир. и
+                                                моторизованных
+                                            </li>
+                                            <li data-i18="v1m5">- Чтение и составление оптических схем</li>
+                                            <li data-i18="v1m6">- Умение работать в команде</li>
+                                            <li data-i18="v1m7">- Опыт работы: 3-5 лет</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="vacancy__column vacancy__column_2">
+                            <div class=" vacancy__item vacancy__item2">
+                                <div class="vacancy-back1 vacancy-back"></div>
+                                <div class="vacancy__text">
+                                    <div class="vacancy__title suptitle">
+                                        <img class="arrow" src="./img/arrow.svg">
+                                       <span data-i18="vacancy2-title">Инженер-конструктор (машиностроение)</span>
+                                    </div>
+                                    <div class="vacancy__show">
+                                        <div class="vacancy__suptitle text" data-i18="Responsibilities">Обязанности:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v2r1">- Разработка узлов или систем гусеничных машин</li>
+                                            <li data-i18="v2r2">- Компоновка узлов, систем и теоретические увязки отдельных элементов
+                                                конструкций с учетом окружающей обстановки, технологических особенностей
+                                                производства, чертежей и паспортов покупных компонентов.
+                                            </li>
+                                            <li data-i18="v2r3">- Проведение расчетов для обоснования выбора конструкторских решений и
+                                                составных частей (кинематические, прочностные, расчет сварных швов,
+                                                расчет на устойчивость и т.п.).
+                                            </li>
+                                            <li data-i18="v2r4">- Создание 3D-моделей деталей, сборочных единиц.</li>
+                                            <li data-i18="v2r5">- Оформление комплекта КД и ЭД в соответствии с ЕСКД.</li>
+                                            <li data-i18="v2r6">- Авторский надзор в производстве.</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="must-haves">Требования:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v2m1">- Образование высшее (инженер-конструктор, БНТУ)</li>
+                                            <li data-i18="v2m2">- Среда разработки – SolidWorks</li>
+                                            <li data-i18="v2m3">- Знание методов и принципов конструирования</li>
+                                            <li data-i18="v2m4">- Опыт разработки и расчета пространственных силовых сварных конструкций
+                                            </li>
+                                            <li data-i18="v2m5">- Опыт разработки гидравлических систем (приветствуется)</li>
+                                            <li data-i18="v2m6">- Опыт работы в области разработки или модернизации гусеничных
+                                                транспортных средств (приветствуется)
+                                            </li>
+                                            <li data-i18="v2m7">- Опыт работы в автомобилестроении: 3-5 лет</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="vacancy__column vacancy__column_1">
+                            <div class=" vacancy__item vacancy__item1">
+                                <div class="vacancy-back1 vacancy-back"></div>
+                                <div class="vacancy__text">
+                                    <div class="vacancy__title suptitle " >
+                                        <img class="arrow" src="./img/arrow.svg" >
+                                        <span data-i18="vacancy3-title">Инженер-схемотехник</span></div>
+                                    <div class="vacancy__show">
+                                        <div class="vacancy__suptitle text" data-i18="Responsibilities">Обязанности:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v3r1">- Разработка схемотехнических решений</li>
+                                            <li data-i18="v3r2" >- Моделирование (макетирование) разработанных схем</li>
+                                            <li data-i18="v3r3">- Разработка топологии печатных плат</li>
+                                            <li data-i18="v3r4">- Отладка и испытания разрабатываемого оборудования</li>
+                                            <li data-i18="v3r5">- Разработка конструкторской и технологической документации</li>
+                                            <li data-i18="v3r6">- Сопровождение на производстве разработанных изделий</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="must-haves">Требования:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v3m1">- Опыт работы в области проектирования РЭА</li>
+                                            <li data-i18="v3m2">- Знание современной компонентной базы</li>
+                                            <li data-i18="v3m3">- Знание и опыт разработки устройств на основе микроконтроллеров</li>
+                                            <li data-i18="v3m4">- Знание и опыт разработки аналоговой схемотехники</li>
+                                            <li data-i18="v3m5">- Владение средой проектирования Altium Designer</li>
+                                            <li data-i18="v3m6">- Опыт создания конструкторской документации</li>
+                                            <li data-i18="v3m7">- Технический английский (чтение и понимание)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="vacancy__column vacancy__column_3">
+                            <div class=" vacancy__item vacancy__item3">
+                                <div class="vacancy-back1 vacancy-back"></div>
+                                <div class="vacancy__text">
+                                    <div class="vacancy__title suptitle">
+                                        <img class="arrow" src="./img/arrow.svg">
+                                        <span data-i18="vacancy4-title">Инженер-программист микроконтроллеров</span>
+                                    </div>
+                                    <div class="vacancy__show">
+                                        <div class="vacancy__suptitle text">Обязанности:</div>
+                                        <ul class="vacancy__list">
+                                            <li  data-i18="v4r1">- Разработка программного обеспечения для микроконтроллеров</li>
+                                            <li data-i18="v4r2">- Отладка, оптимизация кода, пусконаладка</li>
+                                            <li data-i18="v4r3">- Взаимодействие со схемотехники по вопросам схемотехнических решений</li>
+                                            <li data-i18="v4r4">- Поддержка и доработка существующих разработок радиоэлектронной аппаратуры</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="must-haves">Требования:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v4m1">- Знание и практический опыт применения С и С++</li>
+                                            <li data-i18="v4m2">- Опыт работы с микроконтроллерами на ядрах Cortex M</li>
+                                            <li data-i18="v4m3">- Желателен опыт работы с микроконтроллерами STM, Texas Instrument,
+                                                Microchip.
+                                            </li>
+                                            <li data-i18="v4m4">- Приветствуется опыт разработки ПО c использованием RTOS</li>
+                                            <li data-i18="v4m5">- Опыт программирования прикладного ПО в QT будет преимуществом</li>
+                                            <li data-i18="v4m6">- Базовые знания в области электроники и схемотехники, понимание
+                                                принципиальных электрических схем
+                                            </li>
+                                            <li data-i18="v4m7">- Умение быстро переключаться между проектами</li>
+                                            <li data-i18="v4m8">- Уверенное пользование Git</li>
 
-								</div>
-							</div>
-							<div class="hr"></div>
-							<div class="vacancy__column vacancy__column_4">
-								<div class=" vacancy__item vacancy__item4">
-									<div class="vacancy-back1 vacancy-back"></div>
-									<div class="vacancy__text">
-										<div class="vacancy__title suptitle">
-											<img class="arrow" src="./img/arrow.svg">
-											C++ Developer (Embedded Vision and Video Distribution)
-										</div>
-										<div class="vacancy__show">
-											<div class="vacancy__suptitle text">Responsibilities:</div>
-											<ul class="vacancy__list">
-												<li>- Connecting and configuring cameras to the embedded platform</li>
-												<li>- Research and select optimal video distribution solution for the embedded platform</li>
-												<li>- Designing, building, maintaining efficient and reliable C++ code</li>
-												<li>- Organizing code and assuring code quality</li>
-											</ul>
-											<div class="vacancy__suptitle text">Must-haves:</div>
-											<ul class="vacancy__list">
-												<li>- Experience in C++ more than 3+ years</li>
-												<li>- Knowledge of modern C++ standards</li>
-												<li>- Knowledge of modern video codes (H.264, H.265, VP9)</li>
-												<li>- Experience with video streaming</li>
-												<li>- Knowledge of interfaces: USB, CSI, UART, CAN</li>
-												<li>- Experience with Linux, knowledge of bash command line</li>
-												<li>- Knowledge and understanding OOP principles</li>
-												<li>- Knowledge and understanding of SOLID principles</li>
-												<li>- Experience with git version control</li>
-												<li>- Level of English - Intermediate</li>
-											</ul>
-											<div class="vacancy__suptitle text">Nice-to-haves:</div>
-											<ul class="vacancy__list">
-												<li>- Experience with realtime video streaming</li>
-												<li>- Experience with any embedded platform (Nvidia Jetson, Xilinx, NXP)</li>
-												<li>- Experience with any video library (gstreamer, ffmpeg, libav, libvlc)</li>
-												<li>- Knowledge of OOP patterns</li>
-												<li>- Knowledge and experience with Qt</li>
-												<li>- Experience with CUDA</li>
-												<li>- Experience of working with thermal cameras</li>
-												<li>- Completed education in the field of computer science, software engineering, electrical engineering, physics</li>
-											</ul>
-											<div class="vacancy__suptitle text">What we offer:</div>
-											<ul class="vacancy__list">
-												<li>- Participating in development of cutting edge product</li>
-												<li>- Challenging tasks and fast professional growth</li>
-											</ul>
-										</div>
+                                        </ul>
+                                    </div>
+                                </div>
 
-									</div>
-								</div>
-							</div>
-							<div class="hr"></div>
-							<div class="vacancy__column vacancy__column_5">
-								<div class=" vacancy__item vacancy__item5">
-									<div class="vacancy-back1 vacancy-back"></div>
-									<div class="vacancy__text">
-										<div  class="vacancy__title suptitle">
-											<img class="arrow" src="./img/arrow.svg">
-											Computer Vision and Machine Learning engineer
-										</div>
-										<div class="vacancy__show">
-											<div class="vacancy__suptitle text">Responsibilities:</div>
-											<ul class="vacancy__list">
-												<li>- Reaserch of new machine learning algorithms</li>
-												<li>- Implementation and development of computer vision algorithms for embedded platforms</li>
-												<li>- Optimization of existing models for embedded platforms</li>
-												<li>- Technical guidance of other computer vision engineers</li>
-											</ul>
-											<div class="vacancy__suptitle text">Must-haves:</div>
-											<ul class="vacancy__list">
-												<li>- 3+ years of professional experience in the development and implementation of computer vision methods or as a research assistant in relevant subject areas</li>
-												<li>- Knoweldge of Python programming language and libraries (numpy, scipy)</li>
-												<li>- Expirence with ML frameworks (Pytorch, TensorFlow, OpenCV)</li>
-												<li>- Experience with Linux, knowledge of bash command line</li>
-												<li>- Ability to work in a team and solution-oriented, innovative as well as independent way of working</li>
-												<li>- Knowledge and understanding OOP principles</li>
-												<li>- Experience with git version control</li>
-												<li>- Level of English - Intermediate</li>
-											</ul>
-											<div class="vacancy__suptitle text">Nice-to-haves:</div>
-											<ul class="vacancy__list">
-												<li>- Experience of working with Embedded ML platforms (Nvidia Jetson, Rasbery Pi, Intel NCS)</li>
-												<li>- Expirence with C++</li>
-												<li>- Experience with CUDA and TensorRT</li>
-												<li>- Experience with OpenVino</li>
-											</ul>
-											<div class="vacancy__suptitle text">What we offer:</div>
-											<ul class="vacancy__list">
-												<li>- Participating in development of cutting edge product</li>
-												<li>- Participation in establishing better processes for ML in company</li>
-												<li>- Challenging tasks and fast professional growth</li>
-											</ul>
-										</div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="vacancy__column vacancy__column_4">
+                            <div class=" vacancy__item vacancy__item4">
+                                <div class="vacancy-back1 vacancy-back"></div>
+                                <div class="vacancy__text">
+                                    <div class="vacancy__title suptitle">
+                                        <img class="arrow" src="./img/arrow.svg">
+                                       <span  data-i18="vacancy5-title">C++ Разработчик (Встраиваемые системы и работа с видео)</span>
+                                    </div>
+                                    <div class="vacancy__show">
+                                        <div class="vacancy__suptitle text" data-i18="Responsibilities">Обязанности:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v5r1">- Подключение и настройка камер для встраиваемых систем"</li>
+                                            <li data-i18="v5r2">- Исследование и выбор оптимального решения для передачи видео для встраиваемых систем</li>
+                                            <li data-i18="v5r3">- Проектирование, написание и поддержка эффективного и надёжного кода на C++ </li>
+                                            <li data-i18="v5r4">- Организация кодовой базы и обеспечение качества кода</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="must-haves">Требования:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v5m1">- Опыт разработки на C++ более трёх лет</li>
+                                            <li data-i18="v5m2">- Знание современных стандартов C++</li>
+                                            <li data-i18="v5m3">- Знание современных видео-кодеков: H.264, H.265, VP9</li>
+                                            <li data-i18="v5m4">- Опыт работы с передачей видеопотока по сети</li>
+                                            <li data-i18="v5m5">- Знание интерфейсов: USB, CSI, UART, CAN</li>
+                                            <li data-i18="v5m6">- Опыт работы с Linux, знание основных команд bash</li>
+                                            <li data-i18="v5m7">- Знание и понимание основных принципов ООП</li>
+                                            <li data-i18="v5m8">- Знание и понимание принципов SOLID</li>
+                                            <li data-i18="v5m9">- Опыт работы с системой контроля версий git</li>
+                                            <li data-i18="v5m10">- Уровень английского - не ниже Intermediate</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="nice-to-haves">Будет преимуществом:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v5n1">- Опыт работы с передачей видео в режиме реального времени</li>
+                                            <li data-i18="v5n2">- Опыт работы с любой из встраиваемых платформ: Nvidia Jetson, Xilinx, NXP</li>
+                                            <li data-i18="v5n3">- Опыт работы с библиотеками видео: gstreamer, ffmpeg, libav, libvlc</li>
+                                            <li data-i18="v5n4">- Знание шаблонов проектирования ООП</li>
+                                            <li data-i18="v5n5">- Знание и опыт работы с Qt</li>
+                                            <li data-i18="v5n6">- Опыт работы с CUDA</li>
+                                            <li data-i18="v5n7">- Опыт работы с тепловизионными камерами </li>
+                                            <li data-i18="v5n8">- Высшее образование по специальностям: информатика, математика, радиоэлектроника или физика</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="what me offer">Что мы предлагаем:</div
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v5w1">- Участие в разработке инновационных продуктов</li>
+                                            <li data-i18="v5w1">- Сложные и интересные задачи, быстрый профессиональный рост</li>
+                                        </ul>
+                                    </div>
 
-									</div>
-								</div>
-							</div>
-							<div class="hr"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
+                        <div class="vacancy__column vacancy__column_5">
+                            <div class=" vacancy__item vacancy__item5">
+                                <div class="vacancy-back1 vacancy-back"></div>
+                                <div class="vacancy__text">
+                                    <div class="vacancy__title suptitle">
+                                        <img class="arrow" src="./img/arrow.svg">
+                                       <span data-i18="vacancy6-title"> Инженер-разработчик систем компьютерного зрения и машинного обучения</span>
+                                    </div>
+                                    <div class="vacancy__show">
+                                        <div class="vacancy__suptitle text" data-i18="Responsibilities">Обязанности:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v6r1">- Исследование в области новых алгоритмов машинного обучения</li>
+                                            <li data-i18="v6r2">- Разработка алгоритмов компьютерного зрения для встраиваемых платформы</li>
+                                            <li data-i18="v6r3">- Оптимизация существующих моделей под встраиваемые платформы</li>
+                                            <li data-i18="v6r4">- Техническое руководство другими инженерами машинного обучения</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="must-haves">Требования:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v6m1">- Более трёх лет опыта в разработке и реализации методов компьютерного зрения или исследования в смежных областях</li>
+                                            <li data-i18="v6m2">- Знание языка программирования python: numpy, scipy</li>
+                                            <li data-i18="v6m3">- Опыт работы с библиотеками машинного обучения: Pytorch, TensorFlow, OpenCV</li>
+                                            <li data-i18="v6m4">- Опыт работы с Linux, знание основных команд bash</li>
+                                            <li data-i18="v6m5">- Умение работать в команде</li>
+                                            <li data-i18="v6m6">- Знание и понимание основных принципов ООП </li>
+                                            <li data-i18="v6m7">- Опыт работы с системой контроля версий git</li>
+                                            <li data-i18="v6m8">- Уровень английского -- Intermediate</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text"  data-i18="nice-to-haves" >Будет преимуществом:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v6n1">- Опыт работы с встраиваемыми платформами компьютерного зрения (Nvidia Jetson, Rasbery Pi, Intel NCS)</li>
+                                            <li data-i18="v6n2">- Опыт работы с C++</li>
+                                            <li data-i18="v6n3">- Опыт работы с CUDA и TensorRT</li>
+                                            <li data-i18="v6n4">- Опыт работы с OpenVino</li>
+                                        </ul>
+                                        <div class="vacancy__suptitle text" data-i18="what me offer">Что мы предлагаем:</div>
+                                        <ul class="vacancy__list">
+                                            <li data-i18="v6w1">- Участие в разработке инновационных продуктов</li>
+                                            <li data-i18="v6w2">- Участие в совершенствовании процессов машинного обучения в компании/li>
+                                            <li data-i18="v6w3">- Сложные и интересные задачи, быстрый профессиональный рост</li>
+                                        </ul>
+                                    </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-			</main>
-			<div id="footer" class="Anchor"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr"></div>
 
-			<footer class="footer" >
-				<div class="footer-row">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        <div id="footer" class="Anchor"></div>
 
-					<div class="footer-body">
-						<div class="footer__row">
-							<div class="footer__column footer__column_2">
-								<div class="footer__item">
-									<div class="footer-title">СОТРУДНИЧЕСТВО</div>
-									<a  href="tel:+375295676919" class="footer-text">+375 29 567 69 19</a>
-									<a  href="mailto:info@kidmatech.by" class="footer-text">info@mecaro.tech</a>
-								</div>
-							</div>
-							<div class="footer__column footer__column_3">
-								<div class="footer__item">
-									<div class="footer-title">СОИСКАТЕЛЯМ</div>
-									<a  href="tel:+375295676919" class="footer-text">+375 29 567 69 19</a>
-									<a  href="mailto:info@kidmatech.by" class="footer-text">info@mecaro.tech</a>
+        <footer class="footer">
+            <div class="footer-row">
 
-								</div>
-							</div>
-							<div class="footer__column footer__column_4">
-								<div class="footer__item">
-									<div class="footer-title">НАШ АДРЕС</div>
-									<div class="footer-text">220070 Республика Беларусь<br> г. Минск, ул. Солтыса 187 </div>
+                <div class="footer-body">
+                    <div class="footer__row">
+                        <div class="footer__column footer__column_2">
+                            <div class="footer__item">
+                                <div class="footer-title" data-i18="contact-title1">СОТРУДНИЧЕСТВО</div>
+                                <a href="tel:+375295676919" class="footer-text" >+375 29 567 69 19</a>
+                                <a href="mailto:info@kidmatech.by" class="footer-text">info@mecaro.tech</a>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_3">
+                            <div class="footer__item">
+                                <div class="footer-title" data-i18="contact-title2">СОИСКАТЕЛЯМ</div>
+                                <a href="tel:+375295676919" class="footer-text">+375 29 567 69 19</a>
+                                <a href="mailto:info@kidmatech.by" class="footer-text">info@mecaro.tech</a>
 
-								</div>
-							</div>
-							<div class="footer__column footer__column_1">
-								<div class="footer__item">
-									<div class="footer-logo">
-										<a href="#" class="footer__logo">
-											<img src="./img/M%20small.svg" alt="logo">
-										</a>
-									</div>
-									<div class="footer-text">© 2022 "MECARO"</div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_4">
+                            <div class="footer__item">
+                                <div class="footer-title" data-i18="contact-title3">НАШ АДРЕС</div>
+                                <div class="footer-text" data-i18="contact-address">220070 Республика Беларусь г. Минск, ул. Солтыса 187</div>
 
-								</div>
-							</div>
+                            </div>
+                        </div>
+                        <div class="footer__column footer__column_1">
+                            <div class="footer__item  footer__item__img">
+                                <div class="footer-logo">
+                                    <a href="#" class="footer__logo">
+                                        <img src="./img/Mecaro.svg" alt="logo">
+                                    </a>
+                                </div>
+                                <div class="footer-text">© 2022 "MECARO"</div>
 
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
 </body>
 
